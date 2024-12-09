@@ -22,6 +22,14 @@
                     </ffimageloading:SvgCachedImage.Behaviors>
                 </ffimageloading:SvgCachedImage>
                 <Line Height="1"></Line>
+                
+                <Label Text="The dotnetbot CachedImage now works too" />
+                <ffimageloading:CachedImage Source="dotnet_bot">
+                    <Image.Behaviors>
+                        <toolkit:IconTintColorBehavior TintColor="Blue" />
+                    </Image.Behaviors>
+                </ffimageloading:CachedImage>
+                <Line Height="1"></Line>
 
                 <Label Text="This new image fails. If you go back to the main page and return, it will display the tint color."></Label>
                 <ffimageloading:SvgCachedImage Source="wiki" MinimumHeightRequest="100">
@@ -30,13 +38,6 @@
                     </ffimageloading:SvgCachedImage.Behaviors>
                 </ffimageloading:SvgCachedImage>
                 <Line Height="1"></Line>
-                
-                <Label Text="Maui dotnet bot image works" />
-                <Image Source="dotnet_bot">
-                    <Image.Behaviors>
-                        <toolkit:IconTintColorBehavior TintColor="Blue" />
-                    </Image.Behaviors>
-                </Image>
             </VerticalStackLayout>
         </ScrollView>
     </ContentPage.Content>

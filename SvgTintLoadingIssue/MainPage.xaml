@@ -10,8 +10,9 @@
             Padding="30,0"
             Spacing="25"
             xmlns:ffimageloading="clr-namespace:FFImageLoading.Maui;assembly=FFImageLoading.Maui">
+            <Label Text="iOS Issue Only" FontSize="24"></Label>
 
-            <Label Text="Does not work on the main screen." />
+            <Label Text="Tint color does not work for SvgCachedImage on the main screen." />
             <ffimageloading:SvgCachedImage
                 Source="https://en.m.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg"
                 LoadingPlaceholder="wiki.svg">
@@ -19,8 +20,17 @@
                     <toolkit:IconTintColorBehavior TintColor="Blue" />
                 </ffimageloading:SvgCachedImage.Behaviors>
             </ffimageloading:SvgCachedImage>
-            
-            <Label Text="Maui dotnet bot image works" />
+            <Line Height="1"></Line>
+
+            <Label Text="Tint color also doesn't work for CachedImage" />
+            <ffimageloading:CachedImage Source="dotnet_bot">
+                <Image.Behaviors>
+                    <toolkit:IconTintColorBehavior TintColor="Blue" />
+                </Image.Behaviors>
+            </ffimageloading:CachedImage>
+            <Line Height="1"></Line>
+
+            <Label Text="Tint color works with the Image control for the dotnet bot" />
             <Image Source="dotnet_bot">
                 <Image.Behaviors>
                     <toolkit:IconTintColorBehavior TintColor="Blue" />
