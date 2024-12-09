@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace ImageLoadingIssue;
+namespace SvgTintLoadingIssue;
 
 public class Program
 {

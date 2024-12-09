@@ -2,7 +2,7 @@
 using FFImageLoading.Maui;
 using Microsoft.Extensions.Logging;
 
-namespace ImageLoadingIssue;
+namespace SvgTintLoadingIssue;
 
 public static class MauiProgram
 {

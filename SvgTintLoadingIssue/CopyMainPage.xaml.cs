@@ -1,6 +1,6 @@
 using FFImageLoading.Maui;
 
-namespace ImageLoadingIssue;
+namespace SvgTintLoadingIssue;
 
 public partial class CopyMainPage : ContentPage
 {

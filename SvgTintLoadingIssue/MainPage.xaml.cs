@@ -1,4 +1,4 @@
-﻿namespace ImageLoadingIssue;
+﻿namespace SvgTintLoadingIssue;
 
 public partial class MainPage : ContentPage
 {

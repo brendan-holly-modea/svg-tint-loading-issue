@@ -4,9 +4,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Maui;assembly=FFImageLoading.Maui"
-             xmlns:imageLoadingIssue="clr-namespace:ImageLoadingIssue"
-             x:Class="ImageLoadingIssue.CopyMainPage"
-             x:DataType="imageLoadingIssue:CopyMainPage"
+             xmlns:SvgTintLoadingIssue="clr-namespace:SvgTintLoadingIssue"
+             x:Class="SvgTintLoadingIssue.CopyMainPage"
+             x:DataType="SvgTintLoadingIssue:CopyMainPage"
              >
     <ContentPage.Content>
         <ScrollView>
